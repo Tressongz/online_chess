@@ -27,10 +27,27 @@
   align-items: center;
 }
 
+.cell img {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+
 .black {
   background: deepskyblue;
 }
 
 .white {
   background: coral;
+}
+
+.selected {
+  background: brown;
+}
+
+.available {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #82e861;
 }
